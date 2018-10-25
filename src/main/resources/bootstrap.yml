@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: demo
+    
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
+    security:
+      enabled: false  
+
+security:
+  basic:
+    enabled: false
